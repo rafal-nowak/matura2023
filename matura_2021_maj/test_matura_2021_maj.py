@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from matura_2021_maj import Matura2021Maj
+from matura_2021_maj.matura_2021_maj import Matura2021Maj
 
 class TestMatura2021Maj(TestCase):
     def test_zadanie_4_1(self):
