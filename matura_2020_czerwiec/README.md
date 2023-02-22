@@ -44,22 +44,22 @@ Zadanie 4. Pary - odpowiedzi
 *ALBO*\
 jeśli zdający nie uwzględni warunku, że liczba, której rozkładu szukamy, musi być  parzysta, i szuka także rozkładów liczb nieparzystych (ale rozkłady dla liczb parzystych otrzymuje poprawnie)\
 1 pkt – za odpowiedź zawierającą rozkłady, w których dla każdej liczby parzystej występuje przynajmniej jedna liczba
-    pierwsza większa od 3. \
+pierwsza większa od 3. \
 0 pkt – za odpowiedź niepoprawną albo za brak odpowiedzi.  
 
 ## Zadanie 4.2. (0–4)
 **Zasady oceniania**\
 4 pkt – za poprawną odpowiedź.  \
-3 pkt – za odpowiedź, w której zdający: pomija pierwszą lub ostatnią literę fragmentu słowa (ale nie gubi wyników składających się z pojedynczych liter) np. dla aaab wypisze aa\  
-*ALBO*\  
+3 pkt – za odpowiedź, w której zdający: pomija pierwszą lub ostatnią literę fragmentu słowa (ale nie gubi wyników składających się z pojedynczych liter) np. dla aaab wypisze aa
+*ALBO*  
 poda tylko jedną kolumnę wyniku, czyli: poprawną listę fragmentów słów, ale bez długości albo poprawne maksymalne długości, ale bez fragmentów słów\
-*ALBO*\  
+*ALBO*  
 nie uwzględni przypadku, w którym najdłuższy fragment słowa znajduje się na jego końcu i otrzymuje błędne wyniki tylko dla takich słów oraz poprawne w pozostałych przypadkach\
-2 pkt – za odpowiedź, w której zdający: pomija pierwszą i ostatnią literę fragmentu słowa np. dla aaaa wypisze aa\
-*ALBO*\ 
+2 pkt – za odpowiedź, w której zdający: pomija pierwszą i ostatnią literę fragmentu słowa np. dla aaaa wypisze aa
+*ALBO* \
 pomija pierwszą lub ostatnią literę fragmentu słowa oraz gubi wyniki składające się  z pojedynczych liter. \
 1 pkt – za odpowiedź, w której zdający wypisze listę zawierającą poprawne (istniejące) fragmenty słów złożone z takich
-    samych liter, ale nie o największej długości (np. pierwsze lub ostatnie występujące); uwaga: w takim przypadku wyniki złożone  z pojedynczych liter zaliczamy tylko dla słów nie zawierających spójnych fragmentów  o długości większej niż 1 złożonych z jednakowych liter. \
+samych liter, ale nie o największej długości (np. pierwsze lub ostatnie występujące); uwaga: w takim przypadku wyniki złożone  z pojedynczych liter zaliczamy tylko dla słów nie zawierających spójnych fragmentów  o długości większej niż 1 złożonych z jednakowych liter. \
 0 pkt – za odpowiedź niepoprawną albo za brak odpowiedzi.  
 
 ## Zadanie 4.3. (0–4)
