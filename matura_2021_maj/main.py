@@ -5,8 +5,6 @@ if __name__ == '__main__':
 
     text_length = 0
 
-    lines = open('instrukcje.txt', 'r').readlines()
-
     for line in lines:
         if line.split()[0] == "DOPISZ":
             text_length += 1
