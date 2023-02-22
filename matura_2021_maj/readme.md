@@ -81,7 +81,7 @@ Zadanie 4. Neon cyfrowy - odpowiedzi
 **Rozwiązanie**\
 517
 
-##Zadanie 4.2. (0–2)
+## Zadanie 4.2. (0–2)
 
 **Zasady oceniania**\
 2 pkt – za poprawną odpowiedź, w tym:
@@ -94,7 +94,7 @@ Zadanie 4. Neon cyfrowy - odpowiedzi
 **Rozwiązanie**\
 ZMIEN 7
 
-##Zadanie 4.3. (0–3)
+## Zadanie 4.3. (0–3)
 
 **Zasady oceniania**\
 3 pkt – za poprawną odpowiedź, w tym:
@@ -107,7 +107,7 @@ ZMIEN 7
 **Rozwiązanie**\
 Z 37
 
-##Zadanie 4.4 (0–4)
+## Zadanie 4.4 (0–4)
 
 **Zasady oceniania**\
 4 pkt – za poprawną odpowiedź.
