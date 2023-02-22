@@ -39,28 +39,28 @@ odpowiedzi dla tego pliku podane są w treściach zadań, możesz więc sprawdza
 działanie swojego programu. Pamiętaj, że Twój program musi ostatecznie działać dla 2000
 instrukcji. 
 
-##Zadanie 4.1. (0–2)
+## Zadanie 4.1. (0–2)
 
 Oblicz całkowitą długość napisu po wykonaniu wszystkich instrukcji z pliku
 `instrukcje.txt`.
 
 Dla pliku `przyklad.txt` długością napisu jest liczba 10. 
 
-##Zadanie 4.2. (0–2)
+## Zadanie 4.2. (0–2)
 
 Znajdź najdłuższy ciąg występujących kolejno po sobie instrukcji tego samego rodzaju. Jako
 odpowiedź podaj rodzaj instrukcji oraz długość tego ciągu. Istnieje tylko jeden taki ciąg.
 
 Dla pliku `przyklad.txt` odpowiedzią jest: rodzaj instrukcji – DOPISZ, długość ciągu – 5.
 
-##Zadanie 4.3. (0–3)
+## Zadanie 4.3. (0–3)
 
 Oblicz, która litera jest najczęściej dopisywana (najczęściej występuje w instrukcji DOPISZ).
 Podaj tę literę oraz ile razy jest dopisywana. Istnieje tylko jedna taka litera.
 
 Dla pliku `przyklad.txt` odpowiedzią jest litera U, dopisywana 3 razy.
 
-##Zadanie 4.4 (0–4)
+## Zadanie 4.4 (0–4)
 
 Podaj napis, który powstanie po wykonaniu wszystkich instrukcji z pliku `instrukcje.txt`.
 
@@ -69,7 +69,7 @@ Dla pliku `przyklad.txt` wynikiem jest napis ALANTURING.
 Zadanie 4. Neon cyfrowy - odpowiedzi
 =================
 
-##Zadanie 4.1. (0–2)
+## Zadanie 4.1. (0–2)
 
 **Zasady oceniania**\
 2 pkt – za poprawną odpowiedź.
