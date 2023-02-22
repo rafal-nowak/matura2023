@@ -64,10 +64,10 @@ samych liter, ale nie o największej długości (np. pierwsze lub ostatnie wyst�
 
 ## Zadanie 4.3. (0–4)
 **Zasady oceniania**\
-4 pkt – za poprawną odpowiedź.  \
-3 pkt – za odpowiedź: 3 ast albo 3 asq. \
-2 pkt – za odpowiedź, w której zdający nie uwzględnia założenia, że para ma się składać  z liczby i słowa o długości równej danej liczbie (czyli otrzymuje w wyniku parę:  3 aaaoooooooooooooooop). \
-1 pkt – za odpowiedź, w której zdający wypisze liczbę 3 w parze z dowolnym innym niż wymienione wcześniej słowem trzyliterowym \
-*ALBO* \ 
-jako wynik wypisze wszystkie dziewięć słów o długości takiej jak liczba w parze. \
+4 pkt – za poprawną odpowiedź.\
+3 pkt – za odpowiedź: 3 ast albo 3 asq.\
+2 pkt – za odpowiedź, w której zdający nie uwzględnia założenia, że para ma się składać  z liczby i słowa o długości równej danej liczbie (czyli otrzymuje w wyniku parę:  3 aaaoooooooooooooooop).\
+1 pkt – za odpowiedź, w której zdający wypisze liczbę 3 w parze z dowolnym innym niż wymienione wcześniej słowem trzyliterowym\
+*ALBO*\ 
+jako wynik wypisze wszystkie dziewięć słów o długości takiej jak liczba w parze.\
 0 pkt – za odpowiedź niepoprawną albo za brak odpowiedzi.
