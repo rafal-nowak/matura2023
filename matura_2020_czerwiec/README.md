@@ -49,7 +49,7 @@ pierwsza większa od 3. \
 
 ## Zadanie 4.2. (0–4)
 **Zasady oceniania**\
-4 pkt – za poprawną odpowiedź.  \
+4 pkt – za poprawną odpowiedź.
 3 pkt – za odpowiedź, w której zdający: pomija pierwszą lub ostatnią literę fragmentu słowa (ale nie gubi wyników składających się z pojedynczych liter) np. dla aaab wypisze aa
 *ALBO*  
 poda tylko jedną kolumnę wyniku, czyli: poprawną listę fragmentów słów, ale bez długości albo poprawne maksymalne długości, ale bez fragmentów słów\
