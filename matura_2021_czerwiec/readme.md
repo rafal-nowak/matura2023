@@ -32,49 +32,49 @@ Dla danych z pliku `przyklad.txt` wynikiem jest: **NAPISANIEMATURYXXX**
 
 # Zadanie 4. Schowane napisy - odpowiedzi
 ## Zadanie 4.1. (0-2)
-**Zasady oceniania**\
+### Zasady oceniania:
 2 pkt – za poprawną odpowiedź.\
 0 pkt – za odpowiedź niepoprawną albo za brak odpowiedzi.   
 
-**Rozwiązanie**\
-11844
+### Rozwiązanie:
+**11844**
 
 ## Zadanie 4.2. (0–2)
-**Zasady oceniania**\
+### Zasady oceniania:
 2 pkt – za poprawną odpowiedź\
 0 pkt – za odpowiedź niepoprawną albo za brak odpowiedzi.
 
-**Rozwiązanie**\
-SZYBKOROZWIAZUJEPROGRAMISTYCZNEZADANIAZINFORMATYKI
+### Rozwiązanie:
+**SZYBKOROZWIAZUJEPROGRAMISTYCZNEZADANIAZINFORMATYKI**
 
 ## Zadanie 4.3. (0–4)
-**Zasady oceniania**\
+### Zasady oceniania:
 4 pkt – za poprawną odpowiedź\
 Za odpowiedz: ZDANIEMATUR – 2 punkty (tylko dopisanie po prawej)\
 Za odpowiedź AALNE – 2 punkty (tylko dopisanie po lewej)\
 Za odpowiedź MATURA – 2 punkt (tylko dodanie liter)\
 0 pkt – za odpowiedź niepoprawną albo za brak odpowiedzi.
 
-**Rozwiązanie**\
-ZADANIEMATURALNE
+### Rozwiązanie:
+**ZADANIEMATURALNE**
 
 ## Zadanie 4.4. (0–4)
-**Zasady oceniania**\
+### Zasady oceniania:
 4 pkt – za poprawną odpowiedź.\
 0 pkt – za odpowiedź niepoprawną albo za brak odpowiedzi.  
 
-Za odpowiedź:\
+#### Za odpowiedź:
 LITWO44OJCZYZNO!MOJA<SPACJA>TYJESTESJAKZDROWIEILECIETRZEBACENICTENTYLKOSIEDOWIEKTOCIESTRACILNATENCZASWOJSKICHWYCILNATASMIEPRZYPIETYSWOJROGBAWOLIDLUGICENTKOWANYKRETYJAKWAZBOAXXX – 2 punkty (niepominięcie kodów z poza 65-90)
 
-Za odpowiedź:\
+#### Za odpowiedź:
 LITWOOJCZYZNOMOJATYJESTESJAKZDROWIEILECIETRZEBACENICTENTYLKOSIEDOWIEKTOCIESTRACILNATENCZASWOJSKICHWYCILNATASMIEPRZYPIETYSWOJROGBAWOLIDLUGICENTKOWANYKRETYJAKWAZBOAXXXPANTADEUSZXXX – 2 punkty (pominięcie kolejnych trzech znaków X ale w różnych wierszach)
 
-Za odpowiedź:\
+#### Za odpowiedź:
 LITWOOJCZYZNOMOJATYJESTESJAKZDROWIEILECIETRZEBACENICTENTYLKOSIEDOWIEKTONATENCZASCHWYCILNATASMIEPRZYPIETYSWOJROGBAWOLIDLUGICENTKOWANYKRETYJAKWAZBOAXXX – 2 punkty (pominięcie cyfr umieszczonych na pozycjach parzysta-nieparzysta)
 
 Za odpowiedź będącą kombinacją dwóch powyższych błędów – 1 punkt.
 
 UWAGA: dopuszczamy pominięcie końcowego XXX
 
-**Rozwiązanie**\
-LITWOOJCZYZNOMOJATYJESTESJAKZDROWIEILECIETRZEBACENICTENTYLKOSIEDOWIEKTOCIESTRACILNATENCZASWOJSKICHWYCILNATASMIEPRZYPIETYSWOJROGBAWOLIDLUGICENTKOWANYKRETYJAKWAZBOAXXX
+### Rozwiązanie:
+**LITWOOJCZYZNOMOJATYJESTESJAKZDROWIEILECIETRZEBACENICTENTYLKOSIEDOWIEKTOCIESTRACILNATENCZASWOJSKICHWYCILNATASMIEPRZYPIETYSWOJROGBAWOLIDLUGICENTKOWANYKRETYJAKWAZBOAXXX**
