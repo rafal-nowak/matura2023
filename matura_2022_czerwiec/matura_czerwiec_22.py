@@ -14,18 +14,18 @@ class Matura2022Czerwiec:
             reflection = []
 
             for number in numbers:
-                numberString = str(number)
+                number_string = str(number)
                 image = ''
-                for i in reversed(range(0, len(numberString))):
-                    image = image+numberString[i]
+                for i in reversed(range(0, len(number_string))):
+                    image = image+number_string[i]
                 reflection.append(int(image))
 
-            dividedby17 = []
+            divided_by_17 = []
             for j in reflection:
                 if j % 17 == 0:
-                    dividedby17.append(j)
+                    divided_by_17.append(j)
 
-        return dividedby17
+        return divided_by_17
 
     def zadanie_4_2(selfs):
         with open('liczby.txt') as file:
@@ -36,22 +36,22 @@ class Matura2022Czerwiec:
             reflection = []
 
             for number in numbers:
-                numberString = str(number)
+                number_string = str(number)
                 image = ''
-                for i in reversed(range(0, len(numberString))):
-                    image = image+numberString[i]
+                for i in reversed(range(0, len(number_string))):
+                    image = image+number_string[i]
                 reflection.append(int(image))
 
-            maxdifference = 0
-            maxnumber = 0
+            max_difference = 0
+            max_number = 0
 
             for x in range(len(numbers)):
                 difference = numbers[x] - reflection[x]
-                if int(math.fabs(difference)) > maxdifference:
-                    maxdifference = int(math.fabs(difference))
-                    maxnumber = numbers[x]
+                if int(math.fabs(difference)) > max_difference:
+                    max_difference = int(math.fabs(difference))
+                    max_number = numbers[x]
 
-        return maxdifference, maxnumber
+        return max_difference, max_number
 
     def zadanie_4_3(selfs):
         with open('liczby.txt') as file:
@@ -62,13 +62,13 @@ class Matura2022Czerwiec:
             reflection = []
 
             for number in numbers:
-                numberString = str(number)
+                number_string = str(number)
                 image = ''
-                for i in reversed(range(0, len(numberString))):
-                    image = image+numberString[i]
+                for i in reversed(range(0, len(number_string))):
+                    image = image+number_string[i]
                 reflection.append(int(image))
 
-            primeNumbers = []
+            prime_numbers = []
             for a in range(len(numbers)):
                 value1 = 0
                 for z in range(2, numbers[a] - 1):
@@ -80,8 +80,8 @@ class Matura2022Czerwiec:
                         if reflection[a] % b == 0:
                             value2 += 1
                     if value2 == 0:
-                        primeNumbers.append(numbers[a])
-        return primeNumbers
+                        prime_numbers.append(numbers[a])
+        return prime_numbers
 
     def zadanie_4_4(selfs):
         with open('liczby.txt') as file:
@@ -97,13 +97,13 @@ class Matura2022Czerwiec:
                 else:
                     values[i] = 1
 
-            twoTimes = 0
-            threeTimes = 0
+            two_times = 0
+            three_times = 0
 
             for x in values:
                 if values[x] == 2:
-                    twoTimes += 1
+                    two_times += 1
                 elif values[x] == 3:
-                    threeTimes += 1
+                    three_times += 1
 
-        return len(values), twoTimes, threeTimes
+        return len(values), two_times, three_times
