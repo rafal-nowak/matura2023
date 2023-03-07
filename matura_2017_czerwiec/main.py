@@ -2,13 +2,13 @@ from math import sqrt
 
 
 if __name__ == '__main__':
-    f = open("punkty.txt", "r").readlines()
+    lines = open("punkty.txt", "r").readlines()
 
     # Ile jest punktów, których obie współrzędne są liczbami pierwszymi?
 
     PrimeNum = 0
 
-    for line in f:
+    for line in lines:
         num = line.split()
         prime_flagA = 0
         prime_flagB = 0
@@ -24,8 +24,9 @@ if __name__ == '__main__':
             PrimeNum += 1
 
     print()
-    print("1.")
+    print('################################################################################')
     print(f'Jest {PrimeNum} par liczb pierwszych')
+    print('################################################################################')
     print()
 
     # Dwie liczby są cyfropodobne, jeżeli do zapisania każdej z nich wykorzystujemy takie same
@@ -33,7 +34,7 @@ if __name__ == '__main__':
     # Podaj ile jest punktów, których współrzędne są cyfropodobne.
 
     n = 0
-    for line in f:
+    for line in lines:
         num = line.split()
         digitsA = []
         digitsB = []
@@ -55,8 +56,9 @@ if __name__ == '__main__':
                 n += 1
 
     print()
-    print("2")
+    print('################################################################################')
     print(f'Jest {n} par liczb cyfropodobnych')
+    print('################################################################################')
     print()
 
 
@@ -65,27 +67,28 @@ if __name__ == '__main__':
 
     answer = 0
 
-    for line in f:
+    for line in lines:
         num = line.split()
         x = int(num[0])
         y = int(num[1])
-        for lineb in f:
+        for lineb in lines:
             numb = lineb.split()
             x2 = int(numb[0])
             y2 = int(numb[1])
             lenght = int(sqrt((x - x2) * (x - x2) + (y - y2) * (y - y2)))
             if lenght > answer:
                 answer = lenght
-                XA = x
-                YA = y
-                XB = x2
-                YB = y2
+                xa = x
+                ya = y
+                xb = x2
+                yb = y2
 
     print()
-    print("3.")
+    print('################################################################################')
     print(f'Największa odległość między punktami to {lenght}')
-    print(f'Współrzędne pierwszego punktu to ({XA},{YA})')
-    print(f'Współrzędne drugiego punktu to ({XB},{YB})')
+    print(f'Współrzędne pierwszego punktu to ({xa},{ya})')
+    print(f'Współrzędne drugiego punktu to ({xb},{yb})')
+    print('################################################################################')
     print()
 
 
@@ -100,7 +103,7 @@ if __name__ == '__main__':
     edge = 0
     outside = 0
 
-    for line in f:
+    for line in lines:
         num = line.split()
         x = int(num[0])
         y = int(num[1])
@@ -112,8 +115,9 @@ if __name__ == '__main__':
             inside += 1
 
     print()
-    print("4")
+    print('################################################################################')
     print(f'Na zewnątrz kwadratu znajduje się {outside} punktów')
     print(f'W środku kwadratu znajduje się {inside} punktów')
     print(f'Na boku kwadratu leżą {edge} punkty')
+    print('################################################################################')
     print()
