@@ -61,7 +61,7 @@ Rozstrzygnij, ile razy w trakcie gry (inaczej: na ilu planszach zapisanych w pli
 czarnych bierek, ile białych. Podaj liczbę takich plansz, a także najmniejszą liczbę bierek
 (łącznie białych i czarnych) na planszy w stanie równowagi.\
 \
-**Przykład:**\n
+**Przykład:**\
 `A`: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`B`:\
 `.k......` &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; `.p......`\
 `........` &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; `........`\
