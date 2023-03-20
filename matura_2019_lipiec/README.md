@@ -34,25 +34,25 @@ Dla pliku `pierwsze_przyklad.txt` liczbami spełniającymi warunek zadania są: 
 
 Niech w(N) oznacza sumę cyfr liczby N. Dla danej liczby N tworzymy ciąg, w którym N1 = w(N), a każdy kolejny element jest sumą cyfr występujących w poprzednim elemencie:
 
-`		N1 = w(N)
-		N2 = w(N1)
-		N3 = w(N2)
-		...`
+`	N1 = w(N)	`\
+`	N2 = w(N1)	`\
+`	N3 = w(N2)	`\
+`	...	`\
 
 Ciąg kończy się, gdy jego wyraz jest liczbą jednocyfrową. Tę liczbę nazywamy **wagą liczby N**.
 
 **Przykład 1.**
 Niech `N = 1109`.
-`N1 = 1 + 1 + 0 + 9 = 11
-N2 = 1 + 1 = 2`
+`N1 = 1 + 1 + 0 + 9 = 11`\
+`N2 = 1 + 1 = 2`\
 Zatem waga liczby `N = 1109` jest równa 2.
 
 **Przykład 2.**
 Niech `N = 31699`.
-`N1 = 3 + 1 + 6 + 9 + 9 = 28
-N2 = 2 + 8 = 10
-N3 = 1 + 0 = 1`
-Zatem waga liczby `N = 31699` jest równa 1. 
+`N1 = 3 + 1 + 6 + 9 + 9 = 28`\
+`N2 = 2 + 8 = 10`\
+`N3 = 1 + 0 = 1`\
+Zatem waga liczby `N = 31699` jest równa 1.
 
 Podaj, ile jest liczb w pliku `pierwsze.txt`, których waga jest równa 1.
 
