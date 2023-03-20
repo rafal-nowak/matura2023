@@ -9,13 +9,10 @@ class Matura2018Maj:
         with open('sygnaly.txt', 'r') as file:
             signals = file.read().split()
 
-        #message musi być złączonym stringiem
-        message = ''
-
-        answer1_temp = []
+        message_temp = []
         for i in range(39, len(signals), 40):
-            answer1_temp.append(signals[i][9])
-        message = ''.join(answer1_temp)
+            message_temp.append(signals[i][9])
+        message = ''.join(message_temp)
 
         return message
 
@@ -42,8 +39,6 @@ class Matura2018Maj:
                 max_letter_word = signals[i]
                 max_letter_number = counting_different_letters(signals[i])
 
-        answer2 = "{0} {1}".format(max_letter_word, max_letter_number)
-
         return max_letter_word, max_letter_number
 
     def zadanie_4_3(selfs):
@@ -56,7 +51,6 @@ class Matura2018Maj:
             signals = file.read().split()
 
         def checking_if_distance_between_letters_greater_than_ten(word):
-            truth = 1
             min_letter_ord = 1000
             max_letter_ord = 0
 
@@ -66,14 +60,13 @@ class Matura2018Maj:
                 if ord(word[i]) < min_letter_ord:
                     min_letter_ord = ord(word[i])
             if max_letter_ord - min_letter_ord > 10:
-                truth = 0
-            return truth
+                return False
+            return True
 
-        answer3_temp = []
+        words = []
 
         for i in range(len(signals)):
-            if checking_if_distance_between_letters_greater_than_ten(signals[i]) == 1:
-                answer3_temp.append(signals[i])
+            if checking_if_distance_between_letters_greater_than_ten(signals[i]):
+                words.append(signals[i])
 
-        answer_table = answer3_temp
-        return answer_table
+        return words
