@@ -2,6 +2,7 @@ from unittest import TestCase
 
 from matura_2015_maj import Matura2015Maj
 
+
 class TestMatura2015Maj(TestCase):
     def test_zadanie_4_1(self):
         expected_more_zeros = 422
@@ -11,7 +12,6 @@ class TestMatura2015Maj(TestCase):
         self.assertEqual(expected_more_zeros, more_zeros_than_ones)
 
     def test_zadanie_4_2(self):
-
         expected_divisible_by_two = 500
         expected_divisible_by_eight = 123
 
