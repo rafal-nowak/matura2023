@@ -1,7 +1,7 @@
 if __name__ == '__main__':
     lines = open('liczby.txt', 'r').readlines()
 
-    #Podaj, ile liczb z pliku liczby.txt ma w swoim zapisie binarnym więcej zer niż jedynek.
+    # Podaj, ile liczb z pliku liczby.txt ma w swoim zapisie binarnym więcej zer niż jedynek.
 
     more_zeros_than_ones = 0
 
@@ -23,18 +23,17 @@ if __name__ == '__main__':
     print('################################################################################')
     print()
 
-
-    #Podaj, ile liczb w pliku liczby.txt jest podzielnych przez 2 oraz ile liczb jest podzielnych przez 8.
+    # Podaj, ile liczb w pliku liczby.txt jest podzielnych przez 2 oraz ile liczb jest podzielnych przez 8.
 
     divisible_by_two = 0
     divisible_by_eight = 0
 
     for line in lines:
         number = int(line, 2)
-        if number%2 == 0:
-            divisible_by_two +=1
-        if number%8 == 0:
-            divisible_by_eight +=1
+        if number % 2 == 0:
+            divisible_by_two += 1
+        if number % 8 == 0:
+            divisible_by_eight += 1
 
     print()
     print('################################################################################')
@@ -43,25 +42,25 @@ if __name__ == '__main__':
     print('################################################################################')
     print()
 
-    #Znajdź najmniejszą i największą liczbę w pliku liczby.txt.
-    #Jako odpowiedź podaj numery wierszy, w których się one znajdują.
+    # Znajdź najmniejszą i największą liczbę w pliku liczby.txt.
+    # Jako odpowiedź podaj numery wierszy, w których się one znajdują.
 
     min_number = None
     max_number = None
     min_number_line = None
     max_number_line = None
 
-    for i in range (len(lines)):
+    for i in range(len(lines)):
         number = int(lines[i], 2)
         if max_number == None or min_number == None:
             max_number, min_number = number, number
         else:
             if number > max_number:
                 max_number = number
-                max_number_line = i+1
+                max_number_line = i + 1
             if number < min_number:
                 min_number = number
-                min_number_line = i+1
+                min_number_line = i + 1
 
     print()
     print('################################################################################')
