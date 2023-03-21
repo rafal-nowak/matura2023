@@ -66,7 +66,7 @@ Powiemy, że dwa lokale są tego samego rodzaju, jeżeli ich powierzchnia jest t
 W którym mieście powstanie galeria z największą liczbą różnych rodzajów lokali (jest jedno
 takie miasto), a w którym powstanie galeria z najmniejszą liczbą różnych rodzajów lokali (jest
 jedno takie miasto)? Podaj te miasta oraz liczby różnych rodzajów lokali w tych miastach.
-W każdym z dwóch wierszy pliku powinny znajdować się nazwa miasta oraz liczba różnych rodzajów lokali w tym mieście.\
+W każdym z dwóch wierszy pliku powinny znajdować się nazwa miasta oraz liczba różnych rodzajów lokali w tym mieście.
 
 Prawidłowa odpowiedź dla danych pliku `galerie_przyklad.txt`:\
 Dusseldorf 34\
