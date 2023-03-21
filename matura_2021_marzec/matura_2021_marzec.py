@@ -56,8 +56,3 @@ class Matura2021Marzec:
         minimal_city, maximal_city = self.galeries[number_of_types.index(minimal_number)]["city"], self.galeries[number_of_types.index(maximal_number)]["city"]
 
         return minimal_city, minimal_number, maximal_city, maximal_number
-    
-    
-if __name__ == "__main__":
-    pass
-
