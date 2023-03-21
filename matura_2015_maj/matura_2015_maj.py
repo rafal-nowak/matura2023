@@ -4,7 +4,7 @@ class Matura2015Maj:
 
     def zadanie4_1(self):
 
-    # Podaj, ile liczb z pliku liczby.txt ma w swoim zapisie binarnym więcej zer niż jedynek.
+        # Podaj, ile liczb z pliku liczby.txt ma w swoim zapisie binarnym więcej zer niż jedynek.
 
         lines = open('liczby.txt', 'r').readlines()
 
@@ -21,7 +21,7 @@ class Matura2015Maj:
             if zeros > ones:
                 more_zeros_than_ones += 1
 
-        return(more_zeros_than_ones)
+        return (more_zeros_than_ones)
 
     def zadanie4_2(self):
 
@@ -39,7 +39,7 @@ class Matura2015Maj:
             if number % 8 == 0:
                 divisible_by_eight += 1
 
-        return(divisible_by_two, divisible_by_eight)
+        return (divisible_by_two, divisible_by_eight)
 
     def zadanie4_3(self):
 
@@ -65,4 +65,4 @@ class Matura2015Maj:
                     min_number = number
                     min_number_line = i + 1
 
-        return(min_number_line, max_number_line)
+        return (min_number_line, max_number_line)
