@@ -1,6 +1,6 @@
 from math import sqrt
 
-class Matura2017Czerwiec:
+class Matura2017Czerwiec :
     def __init__(self):
         pass
 
@@ -8,11 +8,11 @@ class Matura2017Czerwiec:
 
         # Ile jest punktów, których obie współrzędne są liczbami pierwszymi?
 
-        lines = open("punkty.txt", "r").readlines()
+        f = open("punkty.txt", "r").readlines()
 
         PrimeNum = 0
 
-        for line in lines:
+        for line in f:
             num = line.split()
             prime_flagA = 0
             prime_flagB = 0
@@ -27,18 +27,17 @@ class Matura2017Czerwiec:
             if prime_flagA == 0 and prime_flagB == 0:
                 PrimeNum += 1
 
-        return(PrimeNum)
+        return PrimeNum
 
     def zadanie_4_2(selfs):
 
         # Dwie liczby są cyfropodobne, jeżeli do zapisania każdej z nich wykorzystujemy takie same
         # cyfry dziesiętne.
         # Podaj ile jest punktów, których współrzędne są cyfropodobne.
-
-        lines = open("punkty.txt", "r").readlines()
+        f = open("punkty.txt", "r").readlines()
 
         n = 0
-        for line in lines:
+        for line in f:
             num = line.split()
             digitsA = []
             digitsB = []
@@ -59,34 +58,34 @@ class Matura2017Czerwiec:
                 if good == True:
                     n += 1
 
-        return(n)
+        return n
 
     def zadanie_4_3(selfs):
 
         # Znajdź najbardziej oddalone od siebie punkty. Podaj współrzędne znalezionych punktów oraz
         # odległość między nimi zaokrągloną do liczby całkowitej.
 
-        lines = open("punkty.txt", "r").readlines()
+        f = open("punkty.txt", "r").readlines()
 
         answer = 0
 
-        for line in lines:
+        for line in f:
             num = line.split()
             x = int(num[0])
             y = int(num[1])
-            for lineb in lines:
+            for lineb in f:
                 numb = lineb.split()
                 x2 = int(numb[0])
                 y2 = int(numb[1])
                 lenght = int(sqrt((x - x2) * (x - x2) + (y - y2) * (y - y2)))
                 if lenght > answer:
                     answer = lenght
-                    xa = x
-                    ya = y
-                    xb = x2
-                    yb = y2
+                    XA = x
+                    YA = y
+                    XB = x2
+                    YB = y2
 
-        return(xa, ya, xb, yb)
+        return answer, XA, YA, XB, YB,
 
     def zadanie_4_4(selfs):
 
@@ -97,13 +96,13 @@ class Matura2017Czerwiec:
             # b. na bokach kwadratu K,
             # c. na zewnątrz kwadratu K (bez jego boków).
 
-        lines = open("punkty.txt", "r").readlines()
+        f = open("punkty.txt", "r").readlines()
 
         inside = 0
         edge = 0
         outside = 0
 
-        for line in lines:
+        for line in f:
             num = line.split()
             x = int(num[0])
             y = int(num[1])
@@ -113,4 +112,6 @@ class Matura2017Czerwiec:
                 edge += 1
             else:
                 inside += 1
-        return(inside, edge, outside)
+
+        return inside, outside, edge
+
