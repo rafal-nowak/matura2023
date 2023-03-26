@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
     print()
     print('################################################################################')
-    print(f'Największa odległość między punktami to {lenght}')
+    print(f'Największa odległość między punktami to {answer}')
     print(f'Współrzędne pierwszego punktu to ({xa},{ya})')
     print(f'Współrzędne drugiego punktu to ({xb},{yb})')
     print('################################################################################')
