@@ -1,4 +1,4 @@
-from unittest import TestCase
+from unittest import TestCase, main
 
 from matura_2015_czerwiec import Matura2015Czerwiec
 
@@ -26,3 +26,5 @@ class TestMatura2015Czerwiec(TestCase):
         standart25_codes = Matura2015Czerwiec().zadanie_6_3()
 
         self.assertEqual(expected_standart25_codes, standart25_codes)
+
+main()
